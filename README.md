@@ -7,7 +7,7 @@ The investigation utilized a structured data science workflow, including data pr
 The assignment implemented a Logistic Regression model as a supervised classification approach. Features used for prediction included down, ydstogo, yardline_100, shotgun, and no_huddle indicators.
 • Data Preparation: Data cleaning involved ensuring standard offensive plays were analyzed, and features were preprocessed through scaling and one-hot encoding.
 • Modeling: The Logistic Regression model was trained to predict the binary target variable, Successful_Play (1 = First Down or TD, 0 = Failure).
-• Performance: The model achieved an accuracy of approximately 54.14% and a robust ROC-AUC score of 0.6552 (based on Experiment 2 simulation results), demonstrating predictive power significantly better than random chance (AUC=0.5).
+• Performance: The model achieved an accuracy of approximately 76.3% and a robust ROC-AUC score of 0.7049 (based on Experiment 2 simulation results), demonstrating predictive power significantly better than random chance (AUC=0.5).
 • Conclusion: The experiments confirmed that basic positional indicators (down, distance, yardline) are the dominant drivers of offensive play success probability. Specifically, the combination of Down and Distance to Go (ydstogo) proved to be the most potent predictors.
 # Repository Contents
 This folder contains the three mandatory files:
