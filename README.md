@@ -1,4 +1,4 @@
-Project Overview
+# Project Overview
 This research project studies NFL Play-by-Play Data (sourced from nflreadr) to determine the statistical factors governing successful offensive plays (defined as achieving a First Down or Touchdown).
 The core research question investigated is:
 How do starting field position (yardline_100), down, and distance to go (ydstogo) impact the probability of an NFL offensive play achieving a successful outcome (First Down or Touchdown)?
